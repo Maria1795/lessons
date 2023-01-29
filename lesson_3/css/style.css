@@ -1,0 +1,54 @@
+@import url("reset.css");
+.divv{
+    color: blueviolet;
+}
+h2{
+    color: yellowgreen;
+}
+#city_lviv{
+    color: brown;
+}
+div.history{
+    color: chocolate;
+}
+.fire,
+.churches{
+    color: darkblue;
+}
+.text p{
+    color: cadetblue;
+}
+.list li{
+    color: chartreuse;
+}
+.list-2 > li {
+    color: darkorange;
+    
+}
+.text-2 + p {
+    color: deeppink;
+}
+.year-39 * {
+    color: forestgreen;
+}
+
+[href] {
+    color: blueviolet;
+}
+[class*="__container"] {
+    color: blue;
+}
+
+.list-facts > ul {
+    color: gold;
+
+}
+.history ~ li{
+    color: aquamarine;
+}
+.history ~ .list-places {
+    color: coral;
+}
+.black-p {
+    color: black;
+}
