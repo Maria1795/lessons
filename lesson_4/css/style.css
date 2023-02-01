@@ -41,7 +41,7 @@ body{
 }
 .title{
     font-size: 24px;
-    font-style: normal
+    font-style: normal;
     font-weight: 300;
     color: blueviolet;
     text-transform: uppercase;
@@ -85,7 +85,6 @@ body{
     font-family: "Conv_P052L Italic";
     color: chocolate;
     font-size: 25px;
-    font-weight: 10px;
 }
 .porady{
     font-family: 'Playfair Display', serif;
