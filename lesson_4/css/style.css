@@ -96,3 +96,10 @@ body{
     text-align: center;
     text-decoration: underline;
 }
+.sport-people{
+    text-align: center;
+    text-decoration: line-through;
+    color: rgb(121, 232, 10);
+   
+
+}
