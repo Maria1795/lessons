@@ -1,0 +1,99 @@
+@import url("reset.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Bold.woff2') format('woff2'),url('../fonts/CircularStd-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.woff2') format('woff2'), url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    font-weight: 500;
+}
+@font-face {
+	font-family: 'Conv_P052L Italic';
+	src: url('../fonts/P052L Italic.eot');
+	src: url('../fonts/P052L Italic.woff') format('woff'), url('../fonts/P052L Italic.ttf') format('truetype'), url('../fonts/P052L Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_Unix_heart_emboss-U';
+	src: url('../fonts/Unix_heart_emboss-U.eot');
+	src: url('../fonts/Unix_heart_emboss-U.woff') format('woff'), url('../fonts/Unix_heart_emboss-U.ttf') format('truetype'), url('../fonts/Unix_heart_emboss-U.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+body{
+    font-size: 18px;
+    font-weight: 300;
+    color: darkgray;
+}
+.title{
+    font-size: 24px;
+    font-style: normal
+    font-weight: 300;
+    color: blueviolet;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+.text{
+    text-align: justify;
+    line-height: 40px;
+    font-size: 25px;
+    line-height: normal;
+    text-indent: 5px;
+    font-family: "PT Sans Narrow";
+    color: blue;
+    word-spacing: 2px;
+    text-align: left;
+}
+.paragraph{
+    font-family: "Aboreto",cursive;
+    color: blueviolet;
+    word-spacing: 3px;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+.text-2{
+    text-shadow: 1px 1px black ;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.sport{
+    font-family:"Conv_Unix_heart_emboss-U" ;
+    text-align: center;
+    color: black;
+}
+.stres{
+    font-family: "Conv_P052L Italic";
+    color: chocolate;
+    font-size: 25px;
+    font-weight: 10px;
+}
+.porady{
+    font-family: 'Playfair Display', serif;
+    color: cadetblue;
+    text-shadow: 0px 1px coral;
+}
+.zagolovok{
+    text-transform: capitalize;
+    text-align: center;
+    text-decoration: underline;
+}
