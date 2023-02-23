@@ -38,14 +38,21 @@
 
 }
 /* 2 Частина сайту */
+[class*="__container"]{
+    max-width: 1470px;
+    max-height: 312px;
+}
 .main{
-    background-image: url("../img/Rectangle\ 4924.png");
-    width: 1470px;
+    background-image: url("../img/Rectangle.png");
     height: 560px;
     font-family: "Inter" , sans-serif;
-    background-size: cover;
-    vertical-align: top;
+    
+    
+}
 
+[class*="__box"]{
+    max-width: 570px;
+    min-height: 269px;
 }
 .paragraph-2{
     color: #3056D3;
@@ -60,6 +67,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center; */
+   
 }
 .title-2{
     font-weight: 700;
@@ -85,10 +93,12 @@
     margin-top: -300px;
 }
 .image-container{
-    float: right;
-    vertical-align: middle;
-    bottom: 300px;
+    float: right; 
+    width: 272px;
+    height: 396px;
 }
+
+
 .button-link{
     display: flex;
     background: #3056D3;
