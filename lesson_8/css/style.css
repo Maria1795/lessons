@@ -117,26 +117,27 @@ main {
     margin-bottom: 45px;
 }
 
-
-
+.list li::before{
+    content: "" ;
+    background: url("../img/01.svg") 2px 5px / 10px no-repeat;
+    width: 18px;
+    height: 20px;
+    display: inline-block;
+    margin-right: 1px;
+    padding-left: 20px;
+    transition: all 0.3s;
+}
+.list li:hover::before{
+    transform: scale(1.5);
+}
 
 .list li{
-    background: url("../img/01.svg") 2px 5px / 10px no-repeat; 
-    padding-left: 20px;
     margin-bottom: 15px;
     color: #637381;
     line-height: 1.2;
     min-height: 10px; 
-
 }
-/* .list li::before{
-    content: url("style.css");
-    display: inline-block;
-    background: url("../img/icons/01.svg") 0 0 no-repeat;
-    width: 20px;
-    height: 20px;
-    padding-right: 30px;
-} */
+
 .list-2{
     margin-bottom: 25px;
 }
@@ -147,6 +148,9 @@ main {
     color: #637381;
 }
 
+.list-2 li:hover::before{
+    transform: rotate(-180deg);
+}
 .list-2 li:not(:last-child){
     margin-bottom: 15px;
 }
@@ -200,11 +204,11 @@ main {
 
 
 
-.list6 li:first-child{
+.list-6 li:first-child{
     color: #3056D3;
 }
 
-.list6 li:last-child{
+.list-6 li:last-child{
     color: coral;
 }
 .price:hover{
@@ -212,15 +216,15 @@ main {
 }
 
 
-.list5 li:nth-child(odd){
+.list-5 li:nth-child(odd){
     text-transform: uppercase;
     color: brown;
 }
 
-.list4 li:nth-child(even){
+.list-4 li:nth-child(even){
     color: blueviolet;
 }
-.list6 li:nth-child(3){
+.list-6 li:nth-child(3){
     text-decoration: underline;
 }
 
