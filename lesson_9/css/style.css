@@ -1,0 +1,78 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+    background-color: burlywood;
+}
+
+.main-class{
+    height: 300px;
+    width: 450px;
+    color: black;
+    background-color: coral;
+    font-size: 25px;
+    margin-left: 40px;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+
+.icon{
+    padding-right: 20px;
+}
+.ics-name{
+    color: black;
+    font-size: 30px;
+    padding-bottom: 12px;
+    padding-top: 15px;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.icons-text{
+    padding-bottom: 30px;
+}
+.name{
+    color: chartreuse;
+}
+.icon{
+    padding-right: 6px;
+}
+
+
+
+.content-img{
+    color: chocolate;
+}
+.content-icons-name{
+    font-size: 30px;
+    color: black;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    display: block;
+    background-color: aqua;
+} 
+
+.image-item{
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+.first-photo{
+    padding-right: 15px;
+}
+
+.text{
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+
+.content-images{
+    text-align: center;
+}
+
+.elements-of-design{
+    background-color: darkgray;
+    text-align: center;
+}
