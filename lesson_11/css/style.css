@@ -1,0 +1,50 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+
+.header{
+    background-color: #FFFFFF;
+    color: #212B36;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.header__container{
+    max-width: 1470px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.menu__item{
+    display: inline-block;
+    font-family: 'Inter',sans-serif;
+    position: relative;
+}
+
+.menu__item:not(:last-child){
+    margin-right: 20px;
+    margin-top: 17px;
+}
+.menu__link{
+    font-size: 16px;
+}
+
+.menu__link:hover{
+    text-decoration: underline;
+    color: #3056D3;
+}
+.menu__logo{
+    padding-right: 44.61px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.menu__item .menu__link::after{
+    content: "";
+    background-image: url("../img/bird-1.svg") 0 0 / 100% no-repeat;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 13px;
+    width: 10px;
+    height: 10px;
+}
