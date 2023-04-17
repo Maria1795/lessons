@@ -1,7 +1,9 @@
 @import url("reset.css");
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
-
+body{
+    background-color: burlywood;
+}
 
 
 .wrapper{
@@ -35,6 +37,8 @@
     display: inline-block;
     font-family: 'Inter',sans-serif;
     position: relative;
+    font-weight: 500;
+    background-color: #E7E7E7;
 }
 
 
@@ -48,6 +52,7 @@
     transition: all 0.3s ;
 }
 
+
 .menu__link:hover .sub-sub-menu__link{
     color:#3056D3
 }
@@ -59,6 +64,10 @@
     color: #637381;
 }
 
+.menu__list{
+   font-weight: 500;
+   line-height: 24px;
+}
 .sub-sub__menu{
     color: #637381;
 }
@@ -73,19 +82,24 @@
     left: 10px;
     margin-bottom: 0px;
 }
-
+.sub-menu__list{
+    background-color: #FFFFFF;
+}
 .menu__logo{
     padding-right: 44.61px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-
-.menu__item{
+.fash__sub-title{
+    padding-bottom: 15px;
+}
+/* .menu__item{
     position: relative;
     padding-right: 7px;
-}
+    background: url("img/");
+} */
 
 .menu__item:hover .menu__link{
-    background-color: #F4F7FF;
+    background-color: #FFFFFF;
 }
 
 .menu__item:hover .sub-menu{
@@ -114,18 +128,65 @@
     display: none;
     position: absolute;
     left: 0;
-    top: 15px;
-    padding: 20px 0 0 0;
+    top: 25px;
+    padding: 20px 0px 0px 0px;
     color: #637381;
     min-width: 180px;
+    border: 0.5px solid #E7E7E7;
+    border-radius: 5px;
 }
 
 .black-link{
     color: #212B36;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+   
+}
+
+.sub-sub-menu__list{
+    display: inline-block;
+}
+
+.sub-sub-menu__list-2{
+    display: inline-block;
+}
+.faschen__contain{
+    position: absolute;
+    /* top: 35; */
+    left: 100%;
+    background-color: #FFFFFF;
+    min-width: 652px;
+    height: 308px;
+    border: 0.5px solid #E7E7E7;
+    border-radius: 5px;
+}
+.faschen__content{
+    margin: 30px;
+    height: 248px;
+    line-height: 24px;
+}
+
+.fash-link::before{
+    content: "";
+    background-image: url("../img/fashion-link-srtl.svg") no-repeat;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    right: 20px; 
 }
 
 
 
+.list-1{
+    padding-right: 97px;
+}
+.sub-sub-menu__link{
+    padding-bottom: 14px;
+}
+/* .banner-image{
+    display: inline-block;
+} */
 .icons-list{
     position: absolute;
     top: 10px;
@@ -145,31 +206,9 @@
 .two-lists{
     display: flex;
 }
-
-.sub-sub-menu__list{
-    position: absolute;
-    top: 0;
-    left: 100%;
-    display: none;
-    
+.sub-menu__list>li:hover .sub-menu__link{
+    color: #3056D3;
 }
-
-
-
-.sub-menu__list>li:hover .sub-sub-menu__list{
-    display: block;
-}
-.sub-sub-menu__list>li{
-    background-color: #E7E7E7;
-    
-}
-
-
-.item{
-    flex: 50%;
-	padding: 10px;
-}
-
 
 .inline-icons__list{
     display: inline-block;
@@ -181,47 +220,34 @@
 }
 
 
+.menu__link:hover{
+    color: #3056D3;
+}
+
 
 /* ПЕРЕРОБЛЕНА ЧАСТИНА САЙТУ */
 
+.wrapper__fash{
+    position: absolute;
+    top: 0;
+    left: 100%;
+}
 .fash__sub-title{
     color: #212B36;
 }
 .banner-image{
     position: absolute;
-    right: 120px;
-    top: 20px;
-}
-.wrapper__fash{
-    width: 652px;
-    position: absolute;
-}
-.wrapper__fash{
-    position: absolute;
-    right: 0;
-    bottom: 25px;
-    top: 20px;
-    left: 200px;
+    right: 69px;
+    top: 30px;
+    display: inline-block;
 }
 
-.fash__menu-2{
-    position: absolute;
-
+.link-menu{
+    padding-right: 45px;
 }
 
-.sub-menu{
-    background: #FFFFFF;
-    border: 0.5px solid #E7E7E7;
-    border-radius: 5px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 34px;
-    width: 200px;
-    height: 253px;
-    position: absolute;
-    top: 100%;
-    padding: 20px;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
+
+
+.sub-sub-menu__link:hover{
+    color: #3056D3;
 }
