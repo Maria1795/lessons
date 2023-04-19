@@ -38,7 +38,7 @@ body{
     font-family: 'Inter',sans-serif;
     position: relative;
     font-weight: 500;
-    background-color: #E7E7E7;
+    /* background-color: #E7E7E7; */
 }
 
 
@@ -78,7 +78,7 @@ body{
     height: 20px;
     background: url("../img/triangle.svg");
     position: absolute;
-    top: -5px;
+    top: -10px;
     left: 10px;
     margin-bottom: 0px;
 }
@@ -154,12 +154,19 @@ body{
 .faschen__contain{
     position: absolute;
     /* top: 35; */
+    display: none;
     left: 100%;
     background-color: #FFFFFF;
     min-width: 652px;
     height: 308px;
     border: 0.5px solid #E7E7E7;
     border-radius: 5px;
+    padding-right: 69px;
+    display: none;
+}
+
+.sub-menu__list .fash-link:hover .faschen__contain{
+    display: block;
 }
 .faschen__content{
     margin: 30px;
@@ -167,13 +174,14 @@ body{
     line-height: 24px;
 }
 
-.fash-link::before{
+.fash-link::after{
     content: "";
-    background-image: url("../img/fashion-link-srtl.svg") no-repeat;
+    background: url("../img/fashion-link-srtl.svg")  0 0 / contain no-repeat;
     position: absolute;
     width: 10px;
     height: 10px;
     right: 20px; 
+    justify-content: middle;
 }
 
 
@@ -184,9 +192,7 @@ body{
 .sub-sub-menu__link{
     padding-bottom: 14px;
 }
-/* .banner-image{
-    display: inline-block;
-} */
+
 .icons-list{
     position: absolute;
     top: 10px;
@@ -222,6 +228,7 @@ body{
 
 .menu__link:hover{
     color: #3056D3;
+    
 }
 
 
@@ -251,3 +258,8 @@ body{
 .sub-sub-menu__link:hover{
     color: #3056D3;
 }
+
+.fash-link:hover .faschen__contain{
+    display: block;
+}
+
