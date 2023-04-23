@@ -14,7 +14,7 @@ body {
 }
 
 
-/* Практика - шапка */
+
 .header {
 	background-color: #fff;
 }
@@ -35,15 +35,8 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 }
-.menu {
-}
-.menu__list {
-}
+
 .menu__item {
-	/* 
-	padding-top: 30px;
-	padding-bottom: 30px;
-	 */
 	display: inline-block;
 	vertical-align: middle;
 }
@@ -107,8 +100,7 @@ body {
 .actions-header__item:not(:last-child) {
 	margin-right: 20px;
 }
-.actions-header__icon {
-}
+
 .actions-header__value {
 	position: absolute;
 	right: -5px;
@@ -187,8 +179,7 @@ body {
 	background: url("../img/icons/arrow.svg") 0 0 / 100% no-repeat;
 }
 
-.sub-menu__item_parent {
-}
+
 
 .sub-menu__item_parent:hover .sub-content {
 	opacity: 1;
@@ -224,8 +215,7 @@ body {
 .sub-content__title:not(:last-child) {
 	margin-bottom: 20px;
 }
-.sub-content__list {
-}
+
 .sub-content__item:not(:last-child) {
 	margin-bottom: 13px;
 }
@@ -239,6 +229,4 @@ body {
 }
 .sub-content__link:hover {
 	color: #3056d3;
-}
-.sub-content__banner {
 }
