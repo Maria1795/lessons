@@ -1,0 +1,166 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+body{
+    background-color: bisque;
+    font-size: 30px;
+    font-style: "Poltawski Nowy",sans-serif;
+}
+
+.translate-func{
+    width: 300px;
+    text-align: center;
+    height: 300px;
+    background-color: cadetblue;
+    transform: translate(0px,50px);
+    transition: all 0.8s ease 0s;
+    margin-bottom: 70px;
+}
+.text-2{
+    padding: 30px;
+    text-align: center;
+}
+.translate-func:hover{
+    transform: translate(0px,0px);
+}
+.scale-func{
+    width: 270px;
+    height: 270px;
+    background-color: coral;
+    margin-bottom: 60px;
+    transform-origin: center;
+}
+[class*="__container"]{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.span-class{
+    font-size: 35px;
+    color: white;
+    background-color: blueviolet;
+}
+.trans-title{
+    color: black;
+    padding-left: 400px;
+    background-color: cornflowerblue;
+    margin-bottom: 30px;
+}
+.text-1{
+    padding: 90px;
+}
+.trans-paragraph{
+    max-width: 400px;
+    position: absolute;
+    right: 0%;
+    left: 50%;
+    color: rgb(111, 20, 14);
+}
+
+.scale-func{
+    transform: scale(1,1);
+}
+
+.scale-func:hover{
+    transform: scale(0.5);
+    transition: all 0.9s 0s;
+}
+
+.rotate-func{
+    width: 240px;
+    height: 240px;
+    background-color: chartreuse;
+    transform: rotate(0deg);
+    transition: all 0.7s 0s;
+    margin-bottom: 30px;
+}
+.rotate-func:hover{
+    transform: rotate(180deg);
+    border-radius: 50%;
+    color: crimson;
+}
+.text-3{
+    text-align: center;
+    padding: 35px;
+}
+
+.skew-func{
+    height: 280px;
+    width: 280px;
+    background-color: cyan;
+    transform: skew(0deg,0deg);
+}
+.skew-func:hover{
+    transform: skew(10deg,10deg);
+}
+.text-4{
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+}
+
+
+
+/* car */
+
+.car {
+    position: relative;
+    width: 200px;
+    height: 120px;
+    transform-style: preserve-3d;
+    transform: rotateY(30deg) translateZ(200px);
+    animation: drive 5s linear infinite;
+  }
+  
+  .car-body {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #333;
+    transform: translateZ(-10px);
+  }
+  
+  .car-window {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    transform: translateZ(-20px);
+  }
+  
+  .car-window-2 {
+    left: 120px;
+  }
+  
+  .car-door {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 40px;
+    height: 30px;
+    background-color: #fff;
+    transform: translateZ(-10px);
+  }
+  
+  .car-wheel {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #333;
+    border-radius: 50%;
+    transform: translateZ(-30px);
+    animation: spin 1s linear infinite;
+  }
+  
+  .car-wheel-2 {
+    left: 140px;
+    transform: translateZ(-30px);
+    animation: spin 1s linear infinite reverse;
+  }
+  
+ 
