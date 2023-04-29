@@ -1,0 +1,144 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header__container{
+    margin-bottom: 169px;
+}
+.header-content{
+    font-family: "Poppins" , sans-serif;
+    background-image: url("../img/unsplash_WgMDQsn36w4.jpg");
+    color: #F8F9FA;
+    height: 600px;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 330px;
+}
+.date-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.text{
+    font-weight: 300;
+    font-size: 12px;
+    /* padding-bottom: 100px; */
+}
+.header-title{
+    font-weight: 700;
+    font-size: 25px;
+    width: 605px;
+    padding-bottom: 17px;
+}
+
+/* First section */
+.main-content{
+    max-width: 454px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.text-second{
+    padding-bottom: 31px;
+    font-weight: 300;
+    color: #495057;
+    line-height: 20px;
+}
+.first-section{
+    font-family: "Poppins" , sans-serif;
+    margin-right: 30px;
+}
+.image-girl{
+    padding-bottom: 30px;
+}
+.date-s{
+    color: #495057;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.text-item{
+    color: #495057;
+    font-weight: 300;
+    font-size: 12px;  
+    line-height: 20px;
+    padding-bottom: 31px;
+}
+
+.text-2{
+    color: #495057;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+.text-item-1{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+    font-weight: 300;
+    padding-bottom: 31px;
+    font-family: 'Poppins';
+}
+.title-s{
+    color: #212529;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: 40px;
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+
+}
+.date-class{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+
+.title-class{
+    color: #212529;
+    font-weight: 700;
+    font-size: 25px;   
+    font-family: 'Poppins';     
+}
+.title-class{
+    padding-bottom: 15px;
+    line-height: 40px;
+}
+.text-just{
+    color: #495057;
+}
+.image-flowers{
+    padding-bottom: 30px;
+}
+.text-second{
+    color: #495057;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+.second-section{
+    margin-right: 31px;
+}
+
+.house-img{
+    padding-bottom: 30px;
+}
+
+/* 4 */
+.sections-2{
+    display: flex;
+    justify-content: space-between;
+}
