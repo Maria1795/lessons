@@ -1,0 +1,116 @@
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+.wrapper {
+    overflow: clip;
+	min-height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.header__container{
+    margin-bottom: 169px;
+}
+.header-content{
+    font-family: "Poppins" , sans-serif;
+    background-image: url("../img/unsplash_WgMDQsn36w4.jpg");
+    color: #F8F9FA;
+    height: 600px;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 330px;
+}
+.date-text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+.text{
+    font-weight: 300;
+    font-size: 12px;
+    /* padding-bottom: 100px; */
+}
+.header-title{
+    font-weight: 700;
+    font-size: 25px;
+    width: 605px;
+    padding-bottom: 17px;
+}
+
+/* First section */
+
+
+
+.date-s{
+    color: #495057;
+    font-weight: 300;
+    font-size: 12px;
+    padding-bottom: 15px;
+}
+/*  */
+
+.text-2{
+    color: #495057;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+}
+.text-item-1{
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 20px;
+    color: #495057;
+    font-weight: 300;
+    padding-bottom: 31px;
+    font-family: 'Poppins';
+}
+.title-s{
+    color: #212529;
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 15px;
+    line-height: 40px;
+}
+
+.main-s{
+    display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+    margin-left: 30px;
+    font-family: "Poppins",sans-serif;
+}
+
+
+.portfolio__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+	row-gap: 30px;
+}
+.portfolio__column {
+	padding: 0 15px;
+	flex: 0 0 33.333%;
+}
+
+.item-portfolio {
+	display: block;
+}
+
+.item-portfolio__image {
+	overflow: hidden;
+}
+.item-portfolio__image:not(:last-child) {
+	margin-bottom: 30px;
+}
+
+.item-portfolio__pic {
+	transition: transform 0.8s;
+	max-width: 100%;
+}
+.item-portfolio__pic:hover {
+	transform: scale(1.05);
+}
+
+.text-item-1:hover{
+    text-decoration: underline;
+}
