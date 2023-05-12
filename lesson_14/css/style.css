@@ -155,7 +155,7 @@
 }
 
 .menu-topics__search {
-	background: url("../img/icons/search.svg") left no-repeat;
+	background: url("../img/search.svg") left no-repeat;
 	padding-left: 20px;
 	color: rgba(73, 80, 87, 0.5);
 	font-weight: 500;
@@ -242,7 +242,7 @@
 }
 .item-topic__like {
 	transition: color 0.3s;
-	background: url("../img/icons/like.svg") left no-repeat;
+	background: url("../img/like.svg") left no-repeat;
 	padding-left: 20px;
 }
 .item-topic__like:hover {
