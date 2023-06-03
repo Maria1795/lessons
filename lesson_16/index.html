@@ -32,36 +32,173 @@
                     <input class="input-line" id="input" type="text" placeholder="Last name*" required>
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="text" placeholder="Address*">
+                    <input class="input-line" type="text" placeholder="Address*" required>
                 </form>
                 <form class="form__line" action="#">
                     <input class="input-line" type="text" placeholder="Address line 2">
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="text" placeholder="Country*">
+                    <input class="input-line" type="text" placeholder="Country*" required>
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="text" placeholder="City/Town*">
+                    <input class="input-line" type="text" placeholder="City/Town*" required>
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="text" placeholder="Postcode / ZIP*">
+                    <input class="input-line" type="text" placeholder="Postcode / ZIP*" required>
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="tel" placeholder="Phone*">
+                    <input class="input-line" type="tel" placeholder="Phone*" required>
                 </form>
                 <form class="form__line" method="post" action="#">
-                    <input class="input-line" type="text" placeholder="Postcode / ZIP*">
+                    <input class="input-line" type="text" placeholder="Postcode / ZIP*" required>
                 </form>
                 <form class="form__line" action="#">
-                    <input class="input-line" type="text" placeholder="Phone*">
+                    <input class="input-line" type="text" placeholder="Phone*" required>
                 </form>
-                <form action=""> 
+                <form class="form__line" action="#"> 
                     <textarea class="class-text-area" name="" id="" cols="30" rows="10">Additional information</textarea>
                 </form>
+                <div>
+                <div class="label-classes" >
+                    <input id="create-01" checked class="form__input form__input" required autocomplete="off" name="create-acc" type="checkbox">
+                    <label class="form__label" for="create-01">Create Account</label>
+                </div>
+                <div class="label-classes">
+                    <input type="checkbox" checked class="form__input form__input" required autocomplete="off" name="">
+                    <label class="form__label" for="sh-01">Ship to a different address?</label>
+                </div>
+                </div>    
+                 
+                
+                
+            </div>
+            <div class="footer-page">
+                <h2 class="cupon-title">
+                    Apply Coupon to get discount!
+                </h2>
+                <div>
+                    <input class="input-cupon" type="text" placeholder="Coupon code">
+                </div>
+                <div class="form-apply">
+                    <!-- <form action="#" class="apply-code-cl"> 
+                        <input type="text" placeholder="Apply Code">
+                    </form> -->
+                  <p><button type="submit" class="apply-code-cl"> Apply Code</button></p>
+                </div>
+            </div>
+            <div class="second-forms">
+                <h2 class="second-title">
+                    Shipping Address
+                </h2>
+                <div class="form__line">
+                    <label class="email__label" for="age-01">Email Address <span class="red-star">*</span> </label>
+                    <input class="form__input" id="age-01" autocomplete="off" placeholder="roni_cost@example.com" name="age" type="text">
+                </div>
+                <div class="form__line">
+                    <label class="password__label" for="password-01">Password</label>
+                    <input class="form__input" type="password" placeholder="**********">
+                </div>
+                <div class="form__line">
+                    <label class="zip-label" for="zip-01">Zip/Postal Code</label>
+                    <input class="form__input" type="text">
+                </div>
+                <p class="paragraph">
+                    You already have an account with us. Sign in or continue as guest.
+                </p>
+                <div class="login-buttons">
+                    <div class="button-login">
+                        <button class="login-button" type="button">LOGIN</button>
+                    </div>
+                    <p class="button-forgot-password">
+                        <a href="#">Forgot Your Password?</a>
+                    </p>
+                </div>  
+                <div class="third-sections">
+                    <div class="form__line third-section">
+                        <label class="first-name-label label-class" for="first-name">First Name <span class="red-star"> * </span></label>
+                        <input class="input-first-name" type="text">
+                    </div>
+                    <div class="form__line">
+                        <label class="first-name-label label-class" for="">Last Name <span class="red-star">*</span></label>
+                        <input class="input-first-name" type="text">
+                    </div>
+                    <div class="form__line">
+                        <label class="firts-name-label label-company label-class" for="company">Company</label>
+                        <input class="input-first-name" type="text">
+                    </div>
+                    
+                    <div class="form__line">
+                        <label class="first-name-label label-class" for="male/female">Male/Female</label>
+                        <select class="form__select" name="male/female select" id="">
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                        </select>
+                    </div>
+                    <div class="form__line">
+                        <label class="country-label label-class" for="">Country <span class="red-star">*</span></label>
+                        <input class="input-first-name" type="text">
+                    </div>
+                    <div class="form__line">
+                        <label class="first-name-label label-class" for="">State/Province <span class="red-star">*</span></label>
+                        <!-- <input class="input-first-name" type="text"> -->
+                        <select class="form__select" name="country" id="state">
+                            <option value="1">Lviv</option>
+                            <option value="2">Ivano-Frankivsk</option>
+                            <option value="3">Ternopil</option>
+                            <option value="4">Odesa</option>
+                            <option value="5">Kyiv</option>
+                        </select>
+                    </div>
+                    
+                    
+                </div>  
+            </div>
+            <h2 class="second-title shipping-methods">
+                Shipping Methods
+            </h2>
+            <div class="radio-button but-radio">
+                <div class="form__radio">
+                        <input checked class="form-radio" id="price-01" name="price" value="price" type="radio" required autocomplete="off">
+                        <label class="label-radio label-class" for="pr-01">$5.00</label>
+                </div> 
+                
+                        <p class="radio-paragraph">
+                            Fixed
+                        </p>
+                        <p class="radio-paragraph">
+                            Flat Rate
+                        </p>
+                
+            </div>
+            <div class="radio-button">
+                <div class="form__radio">
+                    <input class="form-radio" name="price" id="price-01" value="price" type="radio">
+                    <label class="label-radio-2 label-class" for="">$10.00</label>
+                </div>
+                <p class="radio-paragraph">
+                    Table Rate
+                </p>
+                <p class="radio-paragraph">
+                    Best Way
+                </p>
+            </div>
+            <div class="footer-buttons">
+                <div class="button-login">
+                    <button class="login-button"> 
+                        NEXT
+                    </button>
+                </div>
+                <div class="back-link">
+                    <p class="link-back">
+                        <a href="#">BACK</a>
+                    </p>
+                </div>
             </div>
         </div>
 
     </main>
-    <footer></footer>
+    <footer>
+       
+    </footer>
 </body>
 </html>
